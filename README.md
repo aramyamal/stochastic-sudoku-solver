@@ -5,3 +5,6 @@ Inspiration from: https://micsymposium.org/mics_2009_proceedings/mics2009_submis
 
 *Simulated Annealing*
 Inspiration from: https://rhydlewis.eu/papers/META_CAN_SOLVE_SUDOKU.pdf
+
+*Ant Colony Optimisation*
+Inspiration from: https://arxiv.org/pdf/1805.03545

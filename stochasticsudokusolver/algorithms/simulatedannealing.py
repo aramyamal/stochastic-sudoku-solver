@@ -87,9 +87,11 @@ class SimulatedAnnealing(SudokuAlgorithm):
 
                 # Accept or reject members of the new population according to
                 # the Metropolis criterion
-                current_populaion, current_energies = self.so.accept_population(
-                    current_populaion, new_population, current_energies,
-                    new_energies, temperature)
+                current_populaion, current_energies = (
+                    self.so.accept_population(
+                        current_populaion, new_population, current_energies,
+                        new_energies, temperature)
+                )
 
                 # Store lowest energy
                 self.energy_history.append(np.min(current_energies))

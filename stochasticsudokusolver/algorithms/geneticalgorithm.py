@@ -83,7 +83,9 @@ class GeneticAlgorithm(SudokuAlgorithm):
             next_generation = np.empty_like(current_generation, dtype=np.int8)
 
             # Add most fit individuals to the next generation
-            next_generation[:selection_amount] = current_generation[fitness_indices[:selection_amount]]
+            next_generation[:selection_amount] = (
+                current_generation[fitness_indices[:selection_amount]]
+            )
 
             # Create children from the current generation and add to the next
             # generation

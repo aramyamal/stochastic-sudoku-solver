@@ -44,7 +44,7 @@ Simply run ```python3 .``` in the repo directory. You will be prompted with eith
 four boards of varying dififficulties. Then you are asked for which algorithm to use for solving the sudoku.
 
 <details>
-  <summary>Example usage</summary>
+  <summary>Example usage (click me):</summary>
   
 ```
 user@localhost:~/repos/stochastic-sudoku-solver$ python3 .
